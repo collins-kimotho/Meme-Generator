@@ -27,8 +27,10 @@ const Main = () => {
             <button className="bg-purple-500 w-full mb-8 mx-4 p-4 rounded-md">Get a new meme image</button>
             <div className="relative flex flex-col justify-center items-center m-4 w-full">
                 <img src={meme} alt="" className=' rounded-sm m-4' />
-                <span className="absolute text-center top-0 text-4xl font-bold text-white p-4">One does not simply</span>
-                <span className="absolute text-center bottom-0 text-4xl font-bold text-white p-4">Walk into Mordor</span>
+                <span className="absolute text-center top-0 text-4xl font-bold text-white p-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]
+">One does not simply</span>
+                <span className="absolute text-center bottom-0 text-4xl font-bold text-white p-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]
+">Walk into Mordor</span>
             </div>
         </section>
        
