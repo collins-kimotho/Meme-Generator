@@ -2,6 +2,8 @@
 
 This project is a Meme Generator application built with React and Vite. The application allows users to generate memes by selecting a random meme image and adding custom text to it.
 
+![meme](public/meme.png)
+
 ## Features
 
 - **Random Meme Image**: Fetches random meme images from an external API.
